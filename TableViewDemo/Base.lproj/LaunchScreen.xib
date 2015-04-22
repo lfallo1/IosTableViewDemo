@@ -11,7 +11,7 @@
             <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="superhero_bg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="nTL-6d-3CU">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="superhero_bg5.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="nTL-6d-3CU">
                     <rect key="frame" x="0.0" y="0.0" width="480" height="486"/>
                 </imageView>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright (c) 2015 Lance Fallon. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="8ie-xW-0ye">
@@ -54,6 +54,6 @@
         </view>
     </objects>
     <resources>
-        <image name="superhero_bg.jpg" width="640" height="1136"/>
+        <image name="superhero_bg5.jpg" width="236" height="418"/>
     </resources>
 </document>

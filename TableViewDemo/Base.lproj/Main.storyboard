@@ -17,9 +17,9 @@
                     <view key="view" contentMode="scaleToFill" id="Oyt-cY-MG5">
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="superhero_bg2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="pPv-N4-xwF">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="superhero_bg3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="pPv-N4-xwF">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="widthClass=compact" ambiguous="YES">
+                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
                                     <rect key="frame" x="0.0" y="0.0" width="640" height="1136"/>
                                 </variation>
                             </imageView>
@@ -339,6 +339,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="superhero_bg2.jpg" width="640" height="1136"/>
+        <image name="superhero_bg3.jpg" width="640" height="960"/>
     </resources>
 </document>
