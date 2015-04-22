@@ -8,23 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		D24CE8D61AE823A7009D8C34 /* Batman.png in Resources */ = {isa = PBXBuildFile; fileRef = D24CE8C91AE823A7009D8C34 /* Batman.png */; };
-		D24CE8D71AE823A7009D8C34 /* CaptainAmerica.png in Resources */ = {isa = PBXBuildFile; fileRef = D24CE8CA1AE823A7009D8C34 /* CaptainAmerica.png */; };
-		D24CE8D81AE823A7009D8C34 /* CaptainJustice.png in Resources */ = {isa = PBXBuildFile; fileRef = D24CE8CB1AE823A7009D8C34 /* CaptainJustice.png */; };
-		D24CE8D91AE823A7009D8C34 /* Celestia.png in Resources */ = {isa = PBXBuildFile; fileRef = D24CE8CC1AE823A7009D8C34 /* Celestia.png */; };
-		D24CE8DA1AE823A7009D8C34 /* GalaxyAngel.png in Resources */ = {isa = PBXBuildFile; fileRef = D24CE8CD1AE823A7009D8C34 /* GalaxyAngel.png */; };
-		D24CE8DB1AE823A7009D8C34 /* MsMarvel.png in Resources */ = {isa = PBXBuildFile; fileRef = D24CE8CE1AE823A7009D8C34 /* MsMarvel.png */; };
-		D24CE8DC1AE823A7009D8C34 /* Nova.png in Resources */ = {isa = PBXBuildFile; fileRef = D24CE8CF1AE823A7009D8C34 /* Nova.png */; };
-		D24CE8DD1AE823A7009D8C34 /* PowerGirl.png in Resources */ = {isa = PBXBuildFile; fileRef = D24CE8D01AE823A7009D8C34 /* PowerGirl.png */; };
-		D24CE8DE1AE823A7009D8C34 /* Psylocke.png in Resources */ = {isa = PBXBuildFile; fileRef = D24CE8D11AE823A7009D8C34 /* Psylocke.png */; };
 		D24CE8DF1AE823A7009D8C34 /* Spiderman.png in Resources */ = {isa = PBXBuildFile; fileRef = D24CE8D21AE823A7009D8C34 /* Spiderman.png */; };
-		D24CE8E01AE823A7009D8C34 /* Supergirl.png in Resources */ = {isa = PBXBuildFile; fileRef = D24CE8D31AE823A7009D8C34 /* Supergirl.png */; };
 		D24CE8E11AE823A7009D8C34 /* Superman.png in Resources */ = {isa = PBXBuildFile; fileRef = D24CE8D41AE823A7009D8C34 /* Superman.png */; };
-		D24CE8E21AE823A7009D8C34 /* Supermum.png in Resources */ = {isa = PBXBuildFile; fileRef = D24CE8D51AE823A7009D8C34 /* Supermum.png */; };
 		D24CE8E51AE829F4009D8C34 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D24CE8E41AE829F4009D8C34 /* HomeViewController.m */; };
-		D24CE8E71AE84D63009D8C34 /* superhero_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D24CE8E61AE84D63009D8C34 /* superhero_bg.jpg */; };
-		D24CE8E91AE85036009D8C34 /* superhero_bg2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D24CE8E81AE85036009D8C34 /* superhero_bg2.jpg */; };
 		D24CE8EF1AE85989009D8C34 /* SuperheroTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D24CE8EE1AE85989009D8C34 /* SuperheroTableViewCell.m */; };
-		D24CE8F21AE86AED009D8C34 /* superhero_bg4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D24CE8F01AE86AED009D8C34 /* superhero_bg4.jpg */; };
 		D24CE8F31AE86AED009D8C34 /* superhero_bg3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D24CE8F11AE86AED009D8C34 /* superhero_bg3.jpg */; };
 		D24CE8F51AE86BF3009D8C34 /* superhero_bg5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D24CE8F41AE86BF3009D8C34 /* superhero_bg5.jpg */; };
 		D2AD07A81AE6FB9F00B9E29D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AD07A71AE6FB9F00B9E29D /* main.m */; };
@@ -52,25 +39,12 @@
 
 /* Begin PBXFileReference section */
 		D24CE8C91AE823A7009D8C34 /* Batman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Batman.png; sourceTree = "<group>"; };
-		D24CE8CA1AE823A7009D8C34 /* CaptainAmerica.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CaptainAmerica.png; sourceTree = "<group>"; };
-		D24CE8CB1AE823A7009D8C34 /* CaptainJustice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CaptainJustice.png; sourceTree = "<group>"; };
-		D24CE8CC1AE823A7009D8C34 /* Celestia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Celestia.png; sourceTree = "<group>"; };
-		D24CE8CD1AE823A7009D8C34 /* GalaxyAngel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GalaxyAngel.png; sourceTree = "<group>"; };
-		D24CE8CE1AE823A7009D8C34 /* MsMarvel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MsMarvel.png; sourceTree = "<group>"; };
-		D24CE8CF1AE823A7009D8C34 /* Nova.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nova.png; sourceTree = "<group>"; };
-		D24CE8D01AE823A7009D8C34 /* PowerGirl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PowerGirl.png; sourceTree = "<group>"; };
-		D24CE8D11AE823A7009D8C34 /* Psylocke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Psylocke.png; sourceTree = "<group>"; };
 		D24CE8D21AE823A7009D8C34 /* Spiderman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spiderman.png; sourceTree = "<group>"; };
-		D24CE8D31AE823A7009D8C34 /* Supergirl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Supergirl.png; sourceTree = "<group>"; };
 		D24CE8D41AE823A7009D8C34 /* Superman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Superman.png; sourceTree = "<group>"; };
-		D24CE8D51AE823A7009D8C34 /* Supermum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Supermum.png; sourceTree = "<group>"; };
 		D24CE8E31AE829F4009D8C34 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		D24CE8E41AE829F4009D8C34 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		D24CE8E61AE84D63009D8C34 /* superhero_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = superhero_bg.jpg; sourceTree = "<group>"; };
-		D24CE8E81AE85036009D8C34 /* superhero_bg2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = superhero_bg2.jpg; sourceTree = "<group>"; };
 		D24CE8ED1AE85989009D8C34 /* SuperheroTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperheroTableViewCell.h; sourceTree = "<group>"; };
 		D24CE8EE1AE85989009D8C34 /* SuperheroTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperheroTableViewCell.m; sourceTree = "<group>"; };
-		D24CE8F01AE86AED009D8C34 /* superhero_bg4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = superhero_bg4.jpg; sourceTree = "<group>"; };
 		D24CE8F11AE86AED009D8C34 /* superhero_bg3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = superhero_bg3.jpg; sourceTree = "<group>"; };
 		D24CE8F41AE86BF3009D8C34 /* superhero_bg5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = superhero_bg5.jpg; sourceTree = "<group>"; };
 		D2AD07A21AE6FB9F00B9E29D /* TableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -159,23 +133,10 @@
 			isa = PBXGroup;
 			children = (
 				D24CE8F41AE86BF3009D8C34 /* superhero_bg5.jpg */,
-				D24CE8F01AE86AED009D8C34 /* superhero_bg4.jpg */,
 				D24CE8F11AE86AED009D8C34 /* superhero_bg3.jpg */,
-				D24CE8E81AE85036009D8C34 /* superhero_bg2.jpg */,
-				D24CE8E61AE84D63009D8C34 /* superhero_bg.jpg */,
 				D24CE8C91AE823A7009D8C34 /* Batman.png */,
-				D24CE8CA1AE823A7009D8C34 /* CaptainAmerica.png */,
-				D24CE8CB1AE823A7009D8C34 /* CaptainJustice.png */,
-				D24CE8CC1AE823A7009D8C34 /* Celestia.png */,
-				D24CE8CD1AE823A7009D8C34 /* GalaxyAngel.png */,
-				D24CE8CE1AE823A7009D8C34 /* MsMarvel.png */,
-				D24CE8CF1AE823A7009D8C34 /* Nova.png */,
-				D24CE8D01AE823A7009D8C34 /* PowerGirl.png */,
-				D24CE8D11AE823A7009D8C34 /* Psylocke.png */,
 				D24CE8D21AE823A7009D8C34 /* Spiderman.png */,
-				D24CE8D31AE823A7009D8C34 /* Supergirl.png */,
 				D24CE8D41AE823A7009D8C34 /* Superman.png */,
-				D24CE8D51AE823A7009D8C34 /* Supermum.png */,
 				D2AD07A91AE6FB9F00B9E29D /* AppDelegate.h */,
 				D2AD07AA1AE6FB9F00B9E29D /* AppDelegate.m */,
 				D2AD07A61AE6FB9F00B9E29D /* Info.plist */,
@@ -300,26 +261,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D24CE8F31AE86AED009D8C34 /* superhero_bg3.jpg in Resources */,
-				D24CE8DD1AE823A7009D8C34 /* PowerGirl.png in Resources */,
 				D24CE8D61AE823A7009D8C34 /* Batman.png in Resources */,
 				D2AD07B11AE6FB9F00B9E29D /* Main.storyboard in Resources */,
-				D24CE8D71AE823A7009D8C34 /* CaptainAmerica.png in Resources */,
-				D24CE8D91AE823A7009D8C34 /* Celestia.png in Resources */,
-				D24CE8E91AE85036009D8C34 /* superhero_bg2.jpg in Resources */,
-				D24CE8DB1AE823A7009D8C34 /* MsMarvel.png in Resources */,
 				D2AD07B61AE6FB9F00B9E29D /* LaunchScreen.xib in Resources */,
-				D24CE8D81AE823A7009D8C34 /* CaptainJustice.png in Resources */,
-				D24CE8DC1AE823A7009D8C34 /* Nova.png in Resources */,
 				D24CE8F51AE86BF3009D8C34 /* superhero_bg5.jpg in Resources */,
-				D24CE8DE1AE823A7009D8C34 /* Psylocke.png in Resources */,
 				D2AD07B31AE6FB9F00B9E29D /* Images.xcassets in Resources */,
 				D24CE8E11AE823A7009D8C34 /* Superman.png in Resources */,
-				D24CE8E01AE823A7009D8C34 /* Supergirl.png in Resources */,
-				D24CE8E21AE823A7009D8C34 /* Supermum.png in Resources */,
-				D24CE8E71AE84D63009D8C34 /* superhero_bg.jpg in Resources */,
-				D24CE8DA1AE823A7009D8C34 /* GalaxyAngel.png in Resources */,
 				D24CE8DF1AE823A7009D8C34 /* Spiderman.png in Resources */,
-				D24CE8F21AE86AED009D8C34 /* superhero_bg4.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
