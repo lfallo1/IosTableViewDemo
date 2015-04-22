@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Superhero.h"
 
 @interface SuperheroDal : NSObject
-+(NSMutableArray *)loadSuperheroes;
++(NSMutableArray *)getSuperheroList;
++(void)loadSuperheroes;
++(Superhero *)getByIndex:(NSInteger)index;
 @end

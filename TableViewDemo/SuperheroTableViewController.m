@@ -18,7 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    superheroes = [SuperheroDal loadSuperheroes];
+    [SuperheroDal loadSuperheroes];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -41,12 +41,12 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-    return [superheroes count];
+    return [[SuperheroDal getSuperheroList] count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"SuperheroCell" forIndexPath:indexPath];
-    Superhero *s =[superheroes objectAtIndex:indexPath.row];
+    Superhero *s =[[SuperheroDal getSuperheroList] objectAtIndex:indexPath.row];
     cell.textLabel.text = [s name];
     cell.detailTextLabel.text = [s label];
     return cell;
@@ -88,7 +88,7 @@
 */
 
 -(void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath{
-    Superhero *s = [superheroes objectAtIndex:indexPath.row];
+    Superhero *s = [[SuperheroDal getSuperheroList] objectAtIndex:indexPath.row];
     NSString *msg = [NSString stringWithFormat:@"Known as the %@", [s label]];
     UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:[s name] message:msg delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
     
@@ -101,8 +101,8 @@
     // Pass the selected object to the new view controller.
     NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
     DetailViewController *ctrl = [segue destinationViewController];
-    Superhero *s = [superheroes objectAtIndex:indexPath.row];
-    [ctrl updateSuperhero:s];
+    Superhero *s = [[SuperheroDal getSuperheroList] objectAtIndex:indexPath.row];
+    [ctrl updateSuperhero:s index:indexPath.row];
 }
 
 @end
