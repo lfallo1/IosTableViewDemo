@@ -7,6 +7,7 @@
 //
 
 #import "SuperheroTableViewController.h"
+#import "SuperheroTableViewCell.h"
 
 @interface SuperheroTableViewController ()
 {
@@ -19,7 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [SuperheroDal loadSuperheroes];
-    
+    [self setTitle:@"Superheroes"];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -45,10 +46,13 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"SuperheroCell" forIndexPath:indexPath];
-    Superhero *s =[[SuperheroDal getSuperheroList] objectAtIndex:indexPath.row];
-    cell.textLabel.text = [s name];
-    cell.detailTextLabel.text = [s label];
+    SuperheroTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"SuperheroCell"];
+    Superhero *s = [[SuperheroDal getSuperheroList] objectAtIndex:indexPath.row];
+    [cell createCell:s];
+//    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"SuperheroCell" forIndexPath:indexPath];
+//    Superhero *s =[[SuperheroDal getSuperheroList] objectAtIndex:indexPath.row];
+//    cell.textLabel.text = [s name];
+//    cell.detailTextLabel.text = [s label];
     return cell;
 }
 

@@ -21,6 +21,9 @@
 		D24CE8E11AE823A7009D8C34 /* Superman.png in Resources */ = {isa = PBXBuildFile; fileRef = D24CE8D41AE823A7009D8C34 /* Superman.png */; };
 		D24CE8E21AE823A7009D8C34 /* Supermum.png in Resources */ = {isa = PBXBuildFile; fileRef = D24CE8D51AE823A7009D8C34 /* Supermum.png */; };
 		D24CE8E51AE829F4009D8C34 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D24CE8E41AE829F4009D8C34 /* HomeViewController.m */; };
+		D24CE8E71AE84D63009D8C34 /* superhero_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D24CE8E61AE84D63009D8C34 /* superhero_bg.jpg */; };
+		D24CE8E91AE85036009D8C34 /* superhero_bg2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D24CE8E81AE85036009D8C34 /* superhero_bg2.jpg */; };
+		D24CE8EF1AE85989009D8C34 /* SuperheroTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D24CE8EE1AE85989009D8C34 /* SuperheroTableViewCell.m */; };
 		D2AD07A81AE6FB9F00B9E29D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AD07A71AE6FB9F00B9E29D /* main.m */; };
 		D2AD07AB1AE6FB9F00B9E29D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AD07AA1AE6FB9F00B9E29D /* AppDelegate.m */; };
 		D2AD07AE1AE6FB9F00B9E29D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AD07AD1AE6FB9F00B9E29D /* ViewController.m */; };
@@ -60,6 +63,10 @@
 		D24CE8D51AE823A7009D8C34 /* Supermum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Supermum.png; sourceTree = "<group>"; };
 		D24CE8E31AE829F4009D8C34 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		D24CE8E41AE829F4009D8C34 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		D24CE8E61AE84D63009D8C34 /* superhero_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = superhero_bg.jpg; sourceTree = "<group>"; };
+		D24CE8E81AE85036009D8C34 /* superhero_bg2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = superhero_bg2.jpg; sourceTree = "<group>"; };
+		D24CE8ED1AE85989009D8C34 /* SuperheroTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperheroTableViewCell.h; sourceTree = "<group>"; };
+		D24CE8EE1AE85989009D8C34 /* SuperheroTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperheroTableViewCell.m; sourceTree = "<group>"; };
 		D2AD07A21AE6FB9F00B9E29D /* TableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2AD07A61AE6FB9F00B9E29D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2AD07A71AE6FB9F00B9E29D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -136,6 +143,8 @@
 				D2AD07A51AE6FB9F00B9E29D /* Supporting Files */,
 				D24CE8E31AE829F4009D8C34 /* HomeViewController.h */,
 				D24CE8E41AE829F4009D8C34 /* HomeViewController.m */,
+				D24CE8ED1AE85989009D8C34 /* SuperheroTableViewCell.h */,
+				D24CE8EE1AE85989009D8C34 /* SuperheroTableViewCell.m */,
 			);
 			path = TableViewDemo;
 			sourceTree = "<group>";
@@ -143,6 +152,8 @@
 		D2AD07A51AE6FB9F00B9E29D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D24CE8E81AE85036009D8C34 /* superhero_bg2.jpg */,
+				D24CE8E61AE84D63009D8C34 /* superhero_bg.jpg */,
 				D24CE8C91AE823A7009D8C34 /* Batman.png */,
 				D24CE8CA1AE823A7009D8C34 /* CaptainAmerica.png */,
 				D24CE8CB1AE823A7009D8C34 /* CaptainJustice.png */,
@@ -284,6 +295,7 @@
 				D2AD07B11AE6FB9F00B9E29D /* Main.storyboard in Resources */,
 				D24CE8D71AE823A7009D8C34 /* CaptainAmerica.png in Resources */,
 				D24CE8D91AE823A7009D8C34 /* Celestia.png in Resources */,
+				D24CE8E91AE85036009D8C34 /* superhero_bg2.jpg in Resources */,
 				D24CE8DB1AE823A7009D8C34 /* MsMarvel.png in Resources */,
 				D2AD07B61AE6FB9F00B9E29D /* LaunchScreen.xib in Resources */,
 				D24CE8D81AE823A7009D8C34 /* CaptainJustice.png in Resources */,
@@ -293,6 +305,7 @@
 				D24CE8E11AE823A7009D8C34 /* Superman.png in Resources */,
 				D24CE8E01AE823A7009D8C34 /* Supergirl.png in Resources */,
 				D24CE8E21AE823A7009D8C34 /* Supermum.png in Resources */,
+				D24CE8E71AE84D63009D8C34 /* superhero_bg.jpg in Resources */,
 				D24CE8DA1AE823A7009D8C34 /* GalaxyAngel.png in Resources */,
 				D24CE8DF1AE823A7009D8C34 /* Spiderman.png in Resources */,
 			);
@@ -320,6 +333,7 @@
 				D2AD07D51AE728F200B9E29D /* SuperheroTableViewController.m in Sources */,
 				D2AD07E21AE73A6200B9E29D /* DetailViewController.m in Sources */,
 				D24CE8E51AE829F4009D8C34 /* HomeViewController.m in Sources */,
+				D24CE8EF1AE85989009D8C34 /* SuperheroTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
